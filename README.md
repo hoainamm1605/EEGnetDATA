@@ -13,3 +13,5 @@
     y = eeg + lambda * artifact;
     save('tenfile.mat', "y");
 end
+
+Các file đều được lưu ở dạng file ".mat", với kích thước là một ma trận 4512x512 tương ứng là 4512 segments đầu tiên trong hai dữ liệu EEG clean và EMG được mix với nhau để tạo ra nhiễu.
